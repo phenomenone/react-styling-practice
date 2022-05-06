@@ -28,7 +28,9 @@ if (currentTime < 12) {
 }
 
 ReactDOM.render(
-  <h1 style={custStyle}>{greeting}</h1>,
+  <h1 className="heading" style={custStyle}>
+    {greeting}
+  </h1>,
 
   document.getElementById("root")
 );
